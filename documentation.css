@@ -1,0 +1,28 @@
+@font-face {
+    font-family: Amadeus;
+    src: url(font/Amadeus\ Regular.ttf);
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    font-family: Amadeus;
+    background-color: rgb(26, 26, 26);
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 47%;
+    font-size: 2rem;
+}
+table{
+    color: white;
+    border: 2px solid white;
+}
+table tr td{
+    color: white;
+    border: 2px solid white;
+    text-align: center;
+}
